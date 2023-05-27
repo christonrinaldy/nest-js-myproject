@@ -35,7 +35,7 @@ export class StoreService {
     return;
   }
 
-  deleteOne(storeId) {
+  deleteOne(storeId: number) {
     this.storesArray.forEach((e, i) => {
       if (e.id == storeId) {
         this.storesArray.splice(i);
