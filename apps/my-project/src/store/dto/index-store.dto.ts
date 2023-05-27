@@ -1,3 +1,3 @@
-export class CreateStoreDto{
-    name: String
+export class CreateStoreDto {
+  name: string;
 }
