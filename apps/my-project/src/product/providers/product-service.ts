@@ -47,6 +47,6 @@ export class ProductService {
         return;
       }
     });
-    return;
+    return [];
   }
 }
