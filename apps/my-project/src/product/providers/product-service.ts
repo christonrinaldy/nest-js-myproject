@@ -10,6 +10,8 @@ export class ProductService {
     return this.lastProductId;
   }
 
+  // commit -1
+
   getAll(): Product[] {
     return this.productsArray;
   }
@@ -17,6 +19,8 @@ export class ProductService {
   getProductById(productId: number): Product {
     return this.productsArray.find((v) => v.id == productId);
   }
+
+  // commit -2
 
   getProductsByStoreId(storeId: number): Product[] {
     return this.productsArray.filter((p) => {
