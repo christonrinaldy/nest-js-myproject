@@ -10,6 +10,8 @@ export class ProductService {
     return this.lastProductId;
   }
 
+  // commit -1
+
   getAll(): Product[] {
     return this.productsArray;
   }
