@@ -20,6 +20,8 @@ export class ProductService {
     return this.productsArray.find((v) => v.id == productId);
   }
 
+  // commit -2
+
   getProductsByStoreId(storeId: number): Product[] {
     return this.productsArray.filter((p) => {
       return p.storeId == storeId;
